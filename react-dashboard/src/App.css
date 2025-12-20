@@ -1,0 +1,133 @@
+body {
+  background: #0a0c10;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: #4dc9ff;
+  margin-bottom: 30px;
+}
+
+/* SUMMARY CARDS */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.summary-card {
+  background: #12141a;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.summary-card h2 {
+  font-size: 34px;
+  margin: 0;
+}
+
+.summary-card p {
+  margin-top: 8px;
+  opacity: 0.7;
+}
+
+/* LATEST MESSAGE */
+.latest-card {
+  background: #181b22;
+  margin-top: 35px;
+  padding: 25px;
+  border-radius: 14px;
+}
+
+.latest-card h2 {
+  margin-bottom: 15px;
+}
+
+.latest-text {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Toxicity Bar */
+.tox-bar {
+  width: 100%;
+  background: #2c2f38;
+  border-radius: 10px;
+  height: 12px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.tox-bar-fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Status Badge */
+.badge {
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.blocked {
+  background: #ff5252;
+}
+
+.allowed {
+  background: #3adb76;
+  color: #000;
+}
+
+.timestamp {
+  margin-top: 12px;
+  opacity: 0.7;
+}
+
+/* ACTIVITY FEED */
+.feed-card {
+  background: #12141a;
+  margin-top: 35px;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.feed-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feed-card li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.feed-text {
+  flex: 1;
+  opacity: 0.9;
+}
+
+.feed-score {
+  opacity: 0.7;
+}
