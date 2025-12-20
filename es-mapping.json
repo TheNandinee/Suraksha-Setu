@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "properties": {
+      "id":        { "type": "keyword" },
+      "text":      { "type": "text", "analyzer": "standard" },
+      "blocked":   { "type": "boolean" },
+      "ts":        { "type": "date", "format": "epoch_millis" },
+      "scores":    { "type": "object", "enabled": true }
+    }
+  }
+}
