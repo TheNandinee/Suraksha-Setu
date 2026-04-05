@@ -474,12 +474,6 @@ The React dashboard features a dark-mode control center with:
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 <div align="center">
 
 *Built with ☕ Java, 🐍 Python, ⚛️ React, and a lot of Kafka debugging at 1 AM.*
