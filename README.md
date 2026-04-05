@@ -1,4 +1,4 @@
-# 🔥 Suraksha-Setu
+# Suraksha-Setu
 
 ### *Real-Time Toxicity Firewall for the Internet*
 
